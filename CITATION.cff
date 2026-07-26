@@ -1,0 +1,49 @@
+# CITATION.cff
+
+cff-version: 1.2.0
+message: "If you use this software, pipeline, or methodology in your research, please cite it as below."
+title: "Machine Learning-Based sEMG Prosthetic Gesture Classification Using the Ninapro DB5 Dataset"
+abstract: "A reproducible, modular machine learning pipeline and framework for surface electromyography (sEMG) signal processing, feature engineering, Leave-One-Subject-Out (LOSO) cross-subject gesture classification, Explainable AI (SHAP) interpretation, and ONNX deployment using the Ninapro DB5 dataset."
+authors:
+  - family-names: "<AUTHOR_FAMILY_NAME>"
+    given-names: "<AUTHOR_GIVEN_NAME>"
+    orcid: "https://orcid.org/<ORCID>"
+    affiliation: "<AUTHOR_AFFILIATION>"
+  - family-names: "<COAUTHOR_FAMILY_NAME>"
+    given-names: "<COAUTHOR_GIVEN_NAME>"
+    orcid: "https://orcid.org/<ORCID>"
+    affiliation: "<COAUTHOR_AFFILIATION>"
+version: "<VERSION>"
+date-released: "<RELEASE_DATE>"
+repository-code: "<GITHUB_REPOSITORY_URL>"
+url: "<GITHUB_REPOSITORY_URL>"
+doi: "<ZENODO_DOI>"
+license: MIT
+keywords:
+  - surface electromyography (sEMG)
+  - prosthetic control
+  - gesture classification
+  - machine learning
+  - Ninapro DB5
+  - signal processing
+  - feature engineering
+  - Leave-One-Subject-Out (LOSO)
+  - Explainable AI (XAI)
+  - SHAP
+  - reproducible research
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "<AUTHOR_FAMILY_NAME>"
+      given-names: "<AUTHOR_GIVEN_NAME>"
+      orcid: "https://orcid.org/<ORCID>"
+    - family-names: "<COAUTHOR_FAMILY_NAME>"
+      given-names: "<COAUTHOR_GIVEN_NAME>"
+      orcid: "https://orcid.org/<ORCID>"
+  title: "Machine Learning-Based sEMG Prosthetic Gesture Classification Using the Ninapro DB5 Dataset"
+  journal: "Series on Biomechanics"
+  year: 2026
+  volume: "<VOLUME>"
+  issue: "<ISSUE>"
+  pages: "<PAGES>"
+  doi: "<JOURNAL_ARTICLE_DOI>"

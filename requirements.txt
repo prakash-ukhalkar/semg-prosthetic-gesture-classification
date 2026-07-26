@@ -1,0 +1,14 @@
+# sEMG Prosthetic Gesture Classification Requirements
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+xgboost
+shap
+ipykernel
+jupyter
+pytest
+tabulate
+networkx

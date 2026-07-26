@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semg-prosthetic-gesture-classification"
+version = "0.1.0"
+description = "Machine Learning-Based sEMG Prosthetic Gesture Classification Using Publicly Available Datasets"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Bio-Mechanics sEMG Gesture Recognition Team" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "xgboost",
+    "shap",
+    "ipykernel",
+    "jupyter",
+    "pytest",
+    "pyarrow",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

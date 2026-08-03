@@ -1,0 +1,99 @@
+# ==============================================================================
+# Git Ignore Configuration
+# Ignore all files and directories by default, keeping ONLY specified project files.
+# ==============================================================================
+
+# Ignore everything in the root repository by default
+/*
+
+# ------------------------------------------------------------------------------
+# 1. Allow Root Files
+# ------------------------------------------------------------------------------
+!.gitignore
+!README.md
+!LICENSE
+!PROJECT_REFERENCE.md
+!REPRODUCIBILITY.md
+!CITATION.cff
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+!requirements.txt
+!environment.yml
+!pyproject.toml
+
+# ------------------------------------------------------------------------------
+# 2. Allow Core Tracked Source Code & Documentation Directories
+# ------------------------------------------------------------------------------
+!src/
+!notebooks/
+!docs/
+!tests/
+
+# ------------------------------------------------------------------------------
+# 3. Data Directory Rules (Ignore generated data, keep metadata & scripts)
+# ------------------------------------------------------------------------------
+!data/
+data/*
+!data/README.md
+!data/dataset_structure.md
+!data/download_dataset.py
+
+# ------------------------------------------------------------------------------
+# 4. Models Directory Rules (Ignore binary checkpoints, keep docs)
+# ------------------------------------------------------------------------------
+!models/
+models/*
+!models/README.md
+
+# ------------------------------------------------------------------------------
+# 5. Outputs Directory Rules (Ignore heavy outputs, keep sample folders & docs)
+# ------------------------------------------------------------------------------
+!outputs/
+outputs/*
+!outputs/README.md
+!outputs/sample_figures/
+!outputs/sample_figures/**
+!outputs/sample_tables/
+!outputs/sample_tables/**
+
+# ------------------------------------------------------------------------------
+# 6. Global Exclusions (Python cache, virtual environments, OS junk)
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment & Caches
+semg-venv/
+venv/
+env/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+catboost_info/
+**/catboost_info/
+**/old_catboost_info/
+
+# OS/IDE junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

@@ -1,14 +1,40 @@
-# sEMG Prosthetic Gesture Classification Requirements
-numpy
-pandas
-scipy
-scikit-learn
-matplotlib
-seaborn
-xgboost
-shap
-ipykernel
-jupyter
-pytest
-tabulate
-networkx
+# sEMG Prosthetic Gesture Classification — Python Dependencies
+# Tested on Python 3.10+
+
+# Core numerical / data
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+pyarrow==25.0.0
+
+# Classical ML
+scikit-learn==1.7.2
+xgboost==3.2.0
+lightgbm==4.7.0
+catboost==1.2.10
+
+# Hyperparameter optimization
+optuna==4.9.0
+
+# Explainable AI
+shap==0.49.1
+
+# Signal processing (wavelet features)
+PyWavelets==1.8.0
+
+# Visualization
+matplotlib==3.10.9
+seaborn==0.13.2
+networkx==3.4.2
+
+# Utilities
+joblib==1.5.3
+psutil==7.2.2
+PyYAML==6.0.3
+tqdm==4.69.0
+tabulate==0.10.0
+
+# Notebooks / dev / testing
+ipykernel==7.3.0
+jupyter==1.1.1
+pytest==9.1.1

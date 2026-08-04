@@ -2,29 +2,41 @@
 
 cff-version: 1.2.0
 message: "If you use this software, pipeline, or methodology in your research, please cite it as below."
-title: "Machine Learning-Based sEMG Prosthetic Gesture Classification Using the Ninapro DB5 Dataset"
-abstract: "A reproducible, modular machine learning pipeline and framework for surface electromyography (sEMG) signal processing, feature engineering, Leave-One-Subject-Out (LOSO) cross-subject gesture classification, Explainable AI (SHAP) interpretation, and ONNX deployment using the Ninapro DB5 dataset."
+title: "Subject-Independent Surface Electromyography Pattern Recognition for Prosthetic Hand Control: A Multi-Domain Signal Processing and Explainability Framework"
+abstract: "A reproducible, modular machine learning pipeline and framework for surface electromyography (sEMG) signal processing, multi-domain feature engineering, subject-disjoint and Leave-One-Subject-Out (LOSO) cross-subject gesture classification, Explainable AI (SHAP, permutation importance, ablation) interpretation, and ONNX embedded deployment benchmarking using the NinaPro Database 2 (DB2) dataset."
 authors:
-  - family-names: "<AUTHOR_FAMILY_NAME>"
-    given-names: "<AUTHOR_GIVEN_NAME>"
+  - family-names: "Ukhalkar"
+    given-names: "Prakash"
+    orcid: "https://orcid.org/0000-0002-0452-6574"
+    affiliation: "Pimpri Chinchwad College of Engineering, Pune, India"
+  - family-names: "<COAUTHOR_2_FAMILY_NAME>"
+    given-names: "<COAUTHOR_2_GIVEN_NAME>"
     orcid: "https://orcid.org/<ORCID>"
-    affiliation: "<AUTHOR_AFFILIATION>"
-  - family-names: "<COAUTHOR_FAMILY_NAME>"
-    given-names: "<COAUTHOR_GIVEN_NAME>"
+    affiliation: "<COAUTHOR_2_AFFILIATION>"
+  - family-names: "<COAUTHOR_3_FAMILY_NAME>"
+    given-names: "<COAUTHOR_3_GIVEN_NAME>"
     orcid: "https://orcid.org/<ORCID>"
-    affiliation: "<COAUTHOR_AFFILIATION>"
-version: "<VERSION>"
-date-released: "<RELEASE_DATE>"
-repository-code: "<GITHUB_REPOSITORY_URL>"
-url: "<GITHUB_REPOSITORY_URL>"
-doi: "<ZENODO_DOI>"
+    affiliation: "<COAUTHOR_3_AFFILIATION>"
+  - family-names: "<COAUTHOR_4_FAMILY_NAME>"
+    given-names: "<COAUTHOR_4_GIVEN_NAME>"
+    orcid: "https://orcid.org/<ORCID>"
+    affiliation: "<COAUTHOR_4_AFFILIATION>"
+  - family-names: "<COAUTHOR_5_FAMILY_NAME>"
+    given-names: "<COAUTHOR_5_GIVEN_NAME>"
+    orcid: "https://orcid.org/<ORCID>"
+    affiliation: "<COAUTHOR_5_AFFILIATION>"
+version: "<VERSION -- to be set at public release>"
+date-released: "<RELEASE_DATE -- to be set at public release>"
+repository-code: "https://github.com/prakash-ukhalkar/semg-prosthetic-gesture-classification"
+url: "https://github.com/prakash-ukhalkar/semg-prosthetic-gesture-classification"
+doi: "<ZENODO_DOI -- to be minted if/when a data/code archive is deposited>"
 license: MIT
 keywords:
   - surface electromyography (sEMG)
   - prosthetic control
   - gesture classification
   - machine learning
-  - Ninapro DB5
+  - NinaPro DB2
   - signal processing
   - feature engineering
   - Leave-One-Subject-Out (LOSO)
@@ -34,16 +46,16 @@ keywords:
 preferred-citation:
   type: article
   authors:
-    - family-names: "<AUTHOR_FAMILY_NAME>"
-      given-names: "<AUTHOR_GIVEN_NAME>"
+    - family-names: "Ukhalkar"
+      given-names: "Prakash"
+      orcid: "https://orcid.org/0000-0002-0452-6574"
+    - family-names: "<COAUTHOR_2_FAMILY_NAME>"
+      given-names: "<COAUTHOR_2_GIVEN_NAME>"
       orcid: "https://orcid.org/<ORCID>"
-    - family-names: "<COAUTHOR_FAMILY_NAME>"
-      given-names: "<COAUTHOR_GIVEN_NAME>"
-      orcid: "https://orcid.org/<ORCID>"
-  title: "Machine Learning-Based sEMG Prosthetic Gesture Classification Using the Ninapro DB5 Dataset"
-  journal: "Series on Biomechanics"
+  title: "Subject-Independent Surface Electromyography Pattern Recognition for Prosthetic Hand Control: A Multi-Domain Signal Processing and Explainability Framework"
+  journal: "Biomedical Signal Processing and Control"
   year: 2026
-  volume: "<VOLUME>"
-  issue: "<ISSUE>"
-  pages: "<PAGES>"
-  doi: "<JOURNAL_ARTICLE_DOI>"
+  volume: "<VOLUME -- to be set upon publication>"
+  issue: "<ISSUE -- to be set upon publication>"
+  pages: "<PAGES -- to be set upon publication>"
+  doi: "<JOURNAL_ARTICLE_DOI -- to be set upon publication>"

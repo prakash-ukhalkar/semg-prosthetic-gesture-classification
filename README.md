@@ -108,6 +108,7 @@ semg-prosthetic-gesture-classification/
 │   ├── 06_frequency_and_time_frequency_feature_engineering.ipynb
 │   ├── 07_feature_fusion_and_selection.ipynb
 │   ├── 08_ml_benchmark_framework.ipynb
+│   ├── 08b_deep_learning_baseline_Colab.ipynb  # DL (1D-CNN) baseline, added after initial numbering was set
 │   ├── 09_hyperparameter_optimization.ipynb
 │   ├── 10_final_model_evaluation.ipynb
 │   ├── 11_cross_subject_generalization_LOSO.ipynb
